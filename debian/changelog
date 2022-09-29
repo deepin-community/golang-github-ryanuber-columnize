@@ -1,0 +1,45 @@
+golang-github-ryanuber-columnize (2.1.1-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+  * Update standards version to 4.4.1, no changes needed.
+  * Apply multi-arch hints. + golang-github-ryanuber-columnize-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 05 Feb 2021 01:35:48 +0000
+
+golang-github-ryanuber-columnize (2.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Added myself to uploaders.
+  * DH & compat to version 12.
+  * Build-Depends: golang-go --> golang-any
+  * Priority: optional; Standards-Version: 4.4.0.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 26 Sep 2019 00:43:13 +1000
+
+golang-github-ryanuber-columnize (2.1.0-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+  * Set Testsuite: autopkgtest-pkg-go.
+  * Fix insecure-copyright-format-uri.
+
+ -- Alexandre Viau <aviau@debian.org>  Wed, 18 Apr 2018 02:19:43 -0400
+
+golang-github-ryanuber-columnize (2.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Wed, 16 Mar 2016 03:44:37 +1100
+
+golang-github-ryanuber-columnize (2.0.1-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Tianon Gravi <tianon@debian.org>  Wed, 21 Oct 2015 15:13:20 -0700
